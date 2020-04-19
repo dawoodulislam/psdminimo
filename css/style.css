@@ -199,6 +199,9 @@ header{
 	top: 115px;
     right: 27px;
 }
+.n_content form button:focus{
+	outline: none;
+}
 form{
 	width: 100%;
 }
