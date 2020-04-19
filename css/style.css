@@ -166,29 +166,41 @@ header{
 /*blog end*/
 /*newletter start*/
 .newsletter{
+	overflow: hidden;
+	box-sizing: border-box;
 	padding-top: 60px;
 	padding-bottom: 70px;
  	background-color: #f0f0f0;
 }
 .n_content{
+	
 	width: 35%;
 	margin: 0 auto;
-	/*margin-bottom: 30px;*/
-	/*border: 1px solid red;*/
+	position: relative;
 }
 .n_content h1{
 	margin-bottom: 70px;
 }
 .inpute{
-	width: 100%;
-	height: 30px;
+	width: 82%;
 	background-color: #f0f0f0;
 	border: none;
+	padding: 5px 35px 5px 5px;
 	border-bottom: 2px solid rgba(0,0,0,0.5);
-	background-image: url(../img/sendicon.png);
-	background-position: right;
-	/*background-size: cover;*/
-	background-repeat: no-repeat;
+	
+	
+}
+.n_content form button{
+	overflow: hidden;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: 115px;
+    right: 27px;
+}
+form{
+	width: 100%;
 }
 .inpute:focus{
 	outline: none;
